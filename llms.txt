@@ -1,0 +1,40 @@
+# Assay, AI governance and assurance
+
+> Assay finds every AI system in a company, puts controls around it, and builds the
+> documentation and evidence needed to answer a customer security review, an auditor,
+> or an internal committee. Operated by Control and Function LLC, Denver, Colorado.
+> Fully remote, United States. Not an audit firm.
+
+## The three steps
+
+1. Inventory. Find every AI system in use, including tools adopted without review.
+   What it is, what data it touches, who depends on the output, what happens when
+   it is wrong.
+2. Control. Design controls people will follow: human review where it matters, access
+   and data boundaries, change and model update handling, incident paths. Mapped to the
+   NIST AI Risk Management Framework and ISO/IEC 42001.
+3. Evidence. Build evidence that accumulates from work people already do, so proof is a
+   by-product rather than a scramble when a review lands.
+
+## Engagement model
+
+- First call: 30 minutes, no charge.
+- Gap assessment: fixed price, scoped on a short call.
+- Larger readiness engagements: quoted fixed before work starts.
+- Operator led. The person who scopes the engagement does the work.
+
+## Explicitly not
+
+Not an audit firm and issues no certifications or opinions. Not a policy template vendor.
+Not a software platform. Does not market regulatory deadlines that do not apply to the
+client.
+
+## Related
+
+- SOC 2 readiness practice: https://controlandfunction.com
+- AI implementation and program management: https://aithatruns.com
+
+## Contact
+
+- Email: hello@controlandfunction.com
+- Booking: https://calendly.com/controlandfunction/discovery-call

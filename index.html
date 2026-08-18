@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assay, AI Governance and Assurance</title>
+<meta name="description" content="Assay finds every AI system in your company, puts real controls around it, and leaves you the documentation and evidence to prove it works. Fixed price, operator led, fully remote.">
+<link rel="canonical" href="https://assayassurance.com/">
+<meta property="og:title" content="Assay, AI Governance and Assurance">
+<meta property="og:description" content="Inventory your AI. Control it. Prove it. So when a customer or an auditor asks how it works, the answer takes an afternoon instead of three weeks.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://assayassurance.com/">
+<meta property="og:image" content="https://assayassurance.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Assay, AI Governance and Assurance">
+<meta name="twitter:description" content="Inventory your AI. Control it. Prove it.">
+<meta name="twitter:image" content="https://assayassurance.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://assay.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Assay",
+  "legalName": "Control and Function LLC",
+  "url": "https://assayassurance.com",
+  "description": "AI governance and assurance consulting. AI system inventory, control design, and evidence programs mapped to the NIST AI Risk Management Framework and ISO/IEC 42001.",
+  "address": { "@type": "PostalAddress", "addressLocality": "Denver", "addressRegion": "CO", "addressCountry": "US" },
+  "areaServed": "United States",
+  "serviceType": ["AI governance", "AI assurance", "AI risk assessment"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Is this an AI audit or a certification?","acceptedAnswer":{"@type":"Answer","text":"No. Assay is not an audit firm and does not issue certifications or opinions. We build the inventory, controls, documentation and evidence so that a customer review, an auditor, or your own committee gets a straight answer quickly."}},
+    {"@type":"Question","name":"Which frameworks do you map to?","acceptedAnswer":{"@type":"Answer","text":"Primarily the NIST AI Risk Management Framework and ISO/IEC 42001, plus your existing SOC 2 scope wherever AI systems now touch controls you already attest to."}},
+    {"@type":"Question","name":"We already have SOC 2. Is this a separate program?","acceptedAnswer":{"@type":"Answer","text":"Mostly not. If you have a working control environment, AI governance is a scoping, documentation and monitoring extension of it. Starting from an existing program is far cheaper than starting cold."}},
+    {"@type":"Question","name":"Do we need this if we only use third party AI tools?","acceptedAnswer":{"@type":"Answer","text":"Often yes, and that case is usually harder, because the tools were adopted without review and nobody has an inventory. Using someone else's model does not move accountability off you in your customer's eyes."}},
+    {"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"An AI governance gap assessment is fixed price and scoped on a short call, so you know the number before you commit. Larger readiness engagements are also quoted fixed before work starts."}}
+  ]
+}
+</script>
+<style>
+:root{
+  --ink:#17140F; --body:#4A443C; --muted:#7C746A; --rule:#E4DED4;
+  --paper:#FBF9F6; --panel:#F4F0EA; --white:#ffffff;
+  --brass:#8A6A2A; --brass-hi:#6E5320;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--body);font-family:'Inter',system-ui,-apple-system,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:1060px;margin:0 auto;padding:0 26px;}
+.wrap.narrow{max-width:1060px;}
+.wrap.narrow > *{max-width:760px;}
+h1,h2,h3{color:var(--ink);margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;letter-spacing:-.01em;}
+h1{font-size:clamp(2.3rem,5vw,3.7rem);line-height:1.08;}
+h2{font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.18;}
+h3{font-size:1.1rem;font-family:'Inter',sans-serif;font-weight:650;letter-spacing:-.005em;}
+a{color:var(--brass);}
+.kicker{font-family:'Inter',sans-serif;font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin:0 0 16px;}
+header{border-bottom:1px solid var(--rule);background:var(--paper);}
+header .wrap{display:flex;align-items:baseline;justify-content:space-between;padding:20px 26px;gap:18px;}
+.brand{display:flex;align-items:baseline;gap:12px;}
+.wordmark{font-family:'Newsreader',Georgia,serif;font-size:1.5rem;font-weight:600;color:var(--ink);letter-spacing:.01em;}
+.brand .desc{font-size:.78rem;color:var(--muted);letter-spacing:.04em;}
+header nav{display:flex;gap:24px;font-size:.88rem;}
+header nav a{color:var(--muted);text-decoration:none;}
+header nav a:hover{color:var(--ink);}
+.hero{border-bottom:1px solid var(--rule);}
+.hero .wrap{padding:84px 26px 80px;}
+.promise{font-family:'Inter',sans-serif;font-size:.82rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--brass);margin:0 0 22px;}
+.sub{font-size:clamp(1.05rem,1.7vw,1.28rem);max-width:60ch;margin:24px 0 0;color:var(--body);}
+.btnrow{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px;}
+.btn{display:inline-block;padding:15px 26px;border-radius:4px;font-weight:600;font-size:.98rem;text-decoration:none;font-family:'Inter',sans-serif;}
+.btn-primary{background:var(--ink);color:var(--paper);}
+.btn-primary:hover{background:#000;}
+.btn-ghost{border:1px solid var(--rule);color:var(--ink);background:var(--white);}
+.btn-ghost:hover{border-color:var(--ink);}
+section{padding:76px 0;}
+section.panel{background:var(--panel);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+.statline{display:flex;flex-wrap:wrap;gap:44px;margin:34px 0 30px;}
+.statline .s{flex:1 1 230px;}
+.statline .n{font-family:'Newsreader',Georgia,serif;font-size:2.9rem;color:var(--ink);line-height:1;margin:0 0 10px;}
+.statline p{margin:0;font-size:.97rem;}
+.statline .src{font-size:.79rem;color:var(--muted);margin-top:8px;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px;}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px;}
+.card{background:var(--white);border:1px solid var(--rule);border-radius:6px;padding:26px;}
+.card p{margin:10px 0 0;font-size:.96rem;}
+.step{font-family:'Newsreader',Georgia,serif;font-size:1.05rem;color:var(--brass);display:block;margin-bottom:12px;letter-spacing:.06em;}
+ul.plain{list-style:none;padding:0;margin:26px 0 0;}
+ul.plain li{position:relative;padding-left:24px;margin-bottom:15px;font-size:1.02rem;}
+ul.plain li::before{content:'';position:absolute;left:4px;top:.68em;width:6px;height:6px;background:var(--brass);border-radius:50%;}
+details{border-bottom:1px solid var(--rule);padding:19px 0;}
+details summary{cursor:pointer;font-weight:600;color:var(--ink);list-style:none;font-size:1.03rem;}
+details summary::-webkit-details-marker{display:none;}
+details summary::after{content:'+';float:right;color:var(--brass);}
+details[open] summary::after{content:'\2212';}
+details p{margin:14px 0 0;font-size:.96rem;}
+.cta{background:var(--ink);}
+.cta h2,.cta .promise{color:var(--paper);}
+.cta .promise{color:#C9A961;}
+.cta p{color:#CFC7BB;max-width:56ch;}
+.cta .btn-primary{background:var(--brass);color:#fff;}
+.cta .btn-primary:hover{background:var(--brass-hi);}
+.cta .btn-ghost{background:transparent;border-color:#4A443C;color:var(--paper);}
+.cta .btn-ghost:hover{border-color:var(--paper);}
+footer{background:var(--ink);color:var(--muted);padding:30px 0;font-size:.86rem;border-top:1px solid #2A251E;}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;}
+footer a{color:#9A9187;text-decoration:none;}
+footer a:hover{color:var(--paper);}
+@media(max-width:780px){
+  header nav{display:none;}
+  .brand{flex-direction:column;gap:2px;}
+  .grid2,.grid3{grid-template-columns:1fr;}
+  .hero .wrap{padding:54px 26px;}
+  section{padding:52px 0;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <span class="wordmark">Assay</span>
+      <span class="desc">AI governance and assurance</span>
+    </div>
+    <nav>
+      <a href="#gap">The gap</a>
+      <a href="#what">What we do</a>
+      <a href="#not">What we are not</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="promise">Inventory your AI. Control it. Prove it.</p>
+    <h1>You have more AI in production<br>than you can account for.</h1>
+    <p class="sub">Assay finds every AI system in your company, puts real controls around it, and leaves you the documentation and evidence to prove it. So when a customer, an auditor, or your own board asks how it works, the answer takes an afternoon instead of three weeks.</p>
+    <div class="btnrow">
+      <a class="btn btn-primary" href="https://calendly.com/controlandfunction/discovery-call">Book a 30 minute call</a>
+      <a class="btn btn-ghost" href="mailto:hello@controlandfunction.com?subject=AI%20governance%20readiness">hello@controlandfunction.com</a>
+    </div>
+  </div>
+</section>
+
+<section id="gap">
+  <div class="wrap">
+    <p class="kicker">The gap</p>
+    <h2>Adoption ran ahead of governance. It usually does.</h2>
+    <div class="statline">
+      <div class="s">
+        <p class="n">88%</p>
+        <p>of organizations report using AI in at least one business function.</p>
+        <p class="src">McKinsey</p>
+      </div>
+      <div class="s">
+        <p class="n">1 in 3</p>
+        <p>have reached governance maturity level three or higher out of four. Roughly two thirds are running AI on governance that is still early.</p>
+        <p class="src">McKinsey</p>
+      </div>
+    </div>
+    <p class="sub" style="margin-top:8px;">That gap is not a failure of anyone's judgment. Adoption was encouraged, it was fast, and it happened team by team. Governance is the slower, duller work that nobody owned while it was happening.</p>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="wrap">
+    <p class="kicker">Where it becomes expensive</p>
+    <h2>Four ways this shows up, usually at the worst moment.</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>A customer security review adds AI questions</h3>
+        <p>The questionnaire you used to clear in two days now has a section nobody owns, and the deal waits while engineering and legal argue about who answers it.</p>
+      </div>
+      <div class="card">
+        <h3>Your SOC 2 scope quietly moved</h3>
+        <p>You shipped an AI feature into a system already covered by controls you attest to. The control language never got updated, and your next audit will find that.</p>
+      </div>
+      <div class="card">
+        <h3>Nobody can say what data went in</h3>
+        <p>A prospect asks whether their data trains anything, and the honest internal answer is that it depends who you ask. That is a governance gap wearing a technical costume.</p>
+      </div>
+      <div class="card">
+        <h3>Shadow AI is already in production</h3>
+        <p>Teams adopted tools without review because adoption was encouraged and governance was not. You need an inventory before you need a policy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="wrap">
+    <p class="kicker">What we do</p>
+    <h2>Three steps, in this order, for a reason.</h2>
+    <div class="grid3">
+      <div class="card">
+        <span class="step">01 / Inventory</span>
+        <h3>Find every AI system you have</h3>
+        <p>Including the ones adopted without review. What it is, what data it touches, who depends on the output, and what happens when it is wrong. Most engagements find more than the client expected.</p>
+      </div>
+      <div class="card">
+        <span class="step">02 / Control</span>
+        <h3>Write controls people will actually follow</h3>
+        <p>Human review where it matters, access and data boundaries, change and model update handling, incident paths. Mapped to the NIST AI Risk Management Framework and ISO/IEC 42001 so the crosswalk already exists when someone asks for it.</p>
+      </div>
+      <div class="card">
+        <span class="step">03 / Evidence</span>
+        <h3>Make proof a by-product</h3>
+        <p>Evidence that accumulates from work people already do, rather than a scramble every time a review lands. This is the part policy-only exercises skip, and it is the part that decides whether any of it survives contact with an auditor.</p>
+      </div>
+    </div>
+    <p class="sub">The order matters. A policy written before the inventory describes a company you do not have.</p>
+  </div>
+</section>
+
+<section class="panel" id="not">
+  <div class="wrap narrow">
+    <p class="kicker">Being straight with you</p>
+    <h2>What Assay is not.</h2>
+    <ul class="plain">
+      <li><strong>Not an audit firm.</strong> We do not issue certifications or opinions, and we never will. We get you ready and hand off cleanly to whoever does.</li>
+      <li><strong>Not a policy template vendor.</strong> A folder of unread policies fails the first real review. If you want documents without operational change, we are the wrong call and we will say so on the first call.</li>
+      <li><strong>Not selling you a deadline.</strong> A lot of firms are marketing regulatory panic right now. We will tell you which obligations actually apply to you and which are being oversold, including when the honest answer is that none of them bind you yet and your customers are the real driver.</li>
+      <li><strong>Not a platform.</strong> There is nothing to license from us and no reseller margin anywhere in this.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="who">
+  <div class="wrap narrow">
+    <p class="kicker">Who does the work</p>
+    <h2>A new practice, built on an old discipline.</h2>
+    <p class="sub">Assay is new and we are not going to invent client logos for it. What stands behind it is the compliance work that came before.</p>
+    <ul class="plain">
+      <li><strong>A SOC 2 Type I program run end to end.</strong> Evidence pipeline built, controls implemented across teams we did not manage, audit fieldwork coordinated, certification achieved. The evidence discipline on this page comes directly from that.</li>
+      <li><strong>Eleven years of technical program delivery</strong>, including a nationwide technology transformation for a large health system across multiple markets and dozens of sites.</li>
+      <li><strong>A portfolio of more than 100 applications owned</strong>, including vendor management and contract negotiation, as the sole IT decision maker for the organization. Shadow tooling is a familiar problem here.</li>
+      <li><strong>Hands on with the technology itself.</strong> An agentic system of roughly 34,000 lines of Python in daily use, six integrations, ten scheduled jobs. We are not governing something we have never built.</li>
+      <li><strong>PMP, PSM I, PMI-CPMAI, AWS Solutions Architect Associate, Security+, CySA+.</strong> MBA in progress at CU Denver with an AI strategy specialization.</li>
+    </ul>
+    <p class="sub">Operator led. The person who scopes your engagement is the person who does the work.</p>
+  </div>
+</section>
+
+<section class="panel" id="faq">
+  <div class="wrap narrow">
+    <p class="kicker">Questions we get</p>
+    <h2>Answers before you have to ask.</h2>
+    <div style="margin-top:28px;">
+      <details><summary>Is this an AI audit or a certification?</summary><p>No. Assay is not an audit firm and issues no certifications or opinions. We build the inventory, controls, documentation and evidence so that a customer review, an auditor, or your own committee gets a straight answer quickly.</p></details>
+      <details><summary>Which frameworks do you map to?</summary><p>Primarily the NIST AI Risk Management Framework and ISO/IEC 42001, plus your existing SOC 2 scope wherever AI systems now touch controls you already attest to.</p></details>
+      <details><summary>We already have SOC 2. Is this a separate program?</summary><p>Mostly not. If you have a working control environment, AI governance is a scoping, documentation and monitoring extension of it rather than a second program from nothing. Starting from an existing program is far cheaper than starting cold.</p></details>
+      <details><summary>Do we need this if we only use third party AI tools?</summary><p>Often yes, and that case is usually harder, because the tools were adopted without review and nobody has an inventory. Using someone else's model does not move accountability off you in your customer's eyes.</p></details>
+      <details><summary>What does it cost?</summary><p>A gap assessment is fixed price and scoped on a short call, so you know the number before you commit. Larger readiness engagements are also quoted fixed before work starts. The first call is free.</p></details>
+      <details><summary>Who is behind Assay?</summary><p>Control and Function LLC, a Denver based consulting practice. The same firm runs a SOC 2 readiness practice at controlandfunction.com.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="wrap narrow">
+    <p class="promise">Start here</p>
+    <h2>Where do we actually stand?</h2>
+    <p class="sub" style="color:#CFC7BB;">Thirty minutes, no charge. Bring the questionnaire that stalled, or just the question you could not answer cleanly. You will leave knowing whether you have an inventory problem, a control problem, an evidence problem, or none of the above.</p>
+    <div class="btnrow">
+      <a class="btn btn-primary" href="https://calendly.com/controlandfunction/discovery-call">Book a 30 minute call</a>
+      <a class="btn btn-ghost" href="mailto:hello@controlandfunction.com?subject=AI%20governance%20readiness">hello@controlandfunction.com</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; 2026 Control and Function LLC &middot; Denver, Colorado &middot; Not an audit firm &middot; Readiness and advisory only</div>
+    <div style="display:flex;gap:22px;">
+      <a href="mailto:hello@controlandfunction.com">Email</a>
+      <a href="https://calendly.com/controlandfunction/discovery-call">Schedule a call</a>
+      <a href="https://controlandfunction.com">SOC 2 practice</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
