@@ -40,8 +40,8 @@
   "@type": "FAQPage",
   "mainEntity": [
     {"@type":"Question","name":"Is this an AI audit or a certification?","acceptedAnswer":{"@type":"Answer","text":"No. Assay is not an audit firm and does not issue certifications or opinions. We build the inventory, controls, documentation and evidence so that a customer review, an auditor, or your own committee gets a straight answer quickly."}},
-    {"@type":"Question","name":"Which frameworks do you map to?","acceptedAnswer":{"@type":"Answer","text":"Primarily the NIST AI Risk Management Framework and ISO/IEC 42001, plus your existing SOC 2 scope wherever AI systems now touch controls you already attest to."}},
-    {"@type":"Question","name":"We already have SOC 2. Is this a separate program?","acceptedAnswer":{"@type":"Answer","text":"Mostly not. If you have a working control environment, AI governance is a scoping, documentation and monitoring extension of it. Starting from an existing program is far cheaper than starting cold."}},
+    {"@type": "Question", "name": "Which frameworks do you map to?", "acceptedAnswer": {"@type": "Answer", "text": "Primarily the NIST AI Risk Management Framework and ISO/IEC 42001. In practice the framework matters less than what your customers are actually asking you."}},
+    {"@type": "Question", "name": "We already have a compliance program. Is this a separate one?", "acceptedAnswer": {"@type": "Answer", "text": "Mostly not. If you already have controls that work, this is a scoping, documentation and monitoring extension of them rather than a second program built from nothing."}},
     {"@type":"Question","name":"Do we need this if we only use third party AI tools?","acceptedAnswer":{"@type":"Answer","text":"Often yes, and that case is usually harder, because the tools were adopted without review and nobody has an inventory. Using someone else's model does not move accountability off you in your customer's eyes."}},
     {"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"An AI governance gap assessment is fixed price and scoped on a short call, so you know the number before you commit. Larger readiness engagements are also quoted fixed before work starts."}}
   ]
@@ -184,8 +184,8 @@ footer a:hover{color:var(--paper);}
         <p>The questionnaire you used to clear in two days now has a section nobody owns, and the deal waits while engineering and legal argue about who answers it.</p>
       </div>
       <div class="card">
-        <h3>Your SOC 2 scope quietly moved</h3>
-        <p>You shipped an AI feature into a system already covered by controls you attest to. The control language never got updated, and your next audit will find that.</p>
+        <h3>Your compliance scope moved and nobody said so</h3>
+        <p>You shipped an AI feature into a system already covered by controls you attest to. Nobody updated the control language, because nobody thought of it as a compliance change. The next person to look will find it before you do.</p>
       </div>
       <div class="card">
         <h3>Nobody can say what data went in</h3>
@@ -242,8 +242,8 @@ footer a:hover{color:var(--paper);}
     <p class="kicker">How this practice works</p>
     <h2>Operator led, evidence first, and we say so when you do not need us.</h2>
     <ul class="plain">
-      <li><strong>We have sat on the other side of this.</strong> We have taken a control environment from nothing to a certified SOC 2 Type I: evidence pipeline built, controls implemented across teams we did not manage, audit fieldwork coordinated. Nothing on this page is theory.</li>
-      <li><strong>We build the systems we govern.</strong> An agentic system of roughly 34,000 lines of Python runs here in daily production, with six integrations and ten scheduled jobs. We are not writing policy about a technology we have only read about.</li>
+      <li><strong>We run AI in production ourselves.</strong> An agentic system of roughly 34,000 lines of Python operates here every day, with six integrations and ten scheduled jobs. We know where the risk actually sits because it sits in the same places ours does: the integrations, the data paths, and the parts nobody wrote down.</li>
+      <li><strong>We have built control environments that survived outside scrutiny.</strong> Evidence pipelines that held up, controls that teams we did not manage actually followed, audit fieldwork run to completion. The discipline carries over directly. Only the subject matter is new.</li>
       <li><strong>One practitioner, start to finish.</strong> The person who scopes your engagement is the person who does it. No bench, no handoff to a junior team, and no partner who disappears after the sales call.</li>
       <li><strong>Fixed price, quoted before work starts.</strong> You know the number before you commit. The first call costs nothing and the gap assessment is scoped so you can stop after it.</li>
       <li><strong>We would rather lose the engagement than oversell it.</strong> If your obligations are lighter than someone told you, or the work does not need us yet, that is what you will hear on the first call.</li>
@@ -258,11 +258,11 @@ footer a:hover{color:var(--paper);}
     <h2>Answers before you have to ask.</h2>
     <div style="margin-top:28px;">
       <details><summary>Is this an AI audit or a certification?</summary><p>No. Assay is not an audit firm and issues no certifications or opinions. We build the inventory, controls, documentation and evidence so that a customer review, an auditor, or your own committee gets a straight answer quickly.</p></details>
-      <details><summary>Which frameworks do you map to?</summary><p>Primarily the NIST AI Risk Management Framework and ISO/IEC 42001, plus your existing SOC 2 scope wherever AI systems now touch controls you already attest to.</p></details>
-      <details><summary>We already have SOC 2. Is this a separate program?</summary><p>Mostly not. If you have a working control environment, AI governance is a scoping, documentation and monitoring extension of it rather than a second program from nothing. Starting from an existing program is far cheaper than starting cold.</p></details>
+      <details><summary>Which frameworks do you map to?</summary><p>Primarily the NIST AI Risk Management Framework and ISO/IEC 42001. In practice the framework matters less than what your customers are actually asking you, and that is usually the real driver.</p></details>
+      <details><summary>We already have a compliance program. Is this a separate one?</summary><p>Mostly not, and that is good news. If you already have controls that work, this is a scoping, documentation and monitoring extension of them rather than a second program built from nothing. Starting from something is far cheaper than starting cold.</p></details>
       <details><summary>Do we need this if we only use third party AI tools?</summary><p>Often yes, and that case is usually harder, because the tools were adopted without review and nobody has an inventory. Using someone else's model does not move accountability off you in your customer's eyes.</p></details>
       <details><summary>What does it cost?</summary><p>A gap assessment is fixed price and scoped on a short call, so you know the number before you commit. Larger readiness engagements are also quoted fixed before work starts. The first call is free.</p></details>
-      <details><summary>Who is behind Assay?</summary><p>Control and Function LLC, a Denver based consulting practice. The same firm runs a SOC 2 readiness practice at controlandfunction.com.</p></details>
+      <details><summary>Who is behind Assay?</summary><p>Control and Function LLC, a Denver based consulting practice.</p></details>
     </div>
   </div>
 </section>
@@ -285,7 +285,7 @@ footer a:hover{color:var(--paper);}
     <div style="display:flex;gap:22px;">
       <a href="mailto:hello@assayassurance.com">Email</a>
       <a href="https://calendly.com/controlandfunction/discovery-call">Schedule a call</a>
-      <a href="https://controlandfunction.com">SOC 2 practice</a>
+      <a href="https://controlandfunction.com">Control and Function</a>
     </div>
   </div>
 </footer>
